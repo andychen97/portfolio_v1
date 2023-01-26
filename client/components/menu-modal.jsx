@@ -13,18 +13,18 @@ export default class MenuModal extends React.Component {
           <div className={`row flex-end ${exitMenu}`} onClick={this.props.menuFunc}>
             <ExitIcon/>
           </div>
-          <ul onClick={this.props.menuFunc}>
+          <ul className='modal-menu-ul' onClick={this.props.menuFunc}>
             <li>
-              <a href='#about-me' className='options grey-text'> <span className='green-text'>01.</span> About Me</a>
+              <a href='#about-me' className='options grey-text'> <span className='green-text'>01.<br /></span> About Me</a>
             </li>
             <li>
-              <a className='options grey-text'> <span className='green-text'>02.</span> Experience</a>
+              <a className='options grey-text'> <span className='green-text'>02.<br /></span> Experience</a>
             </li>
             <li>
-              <a className='options grey-text'> <span className='green-text'>03.</span> Work</a>
+              <a className='options grey-text'> <span className='green-text'>03.<br /></span> Work</a>
             </li>
             <li>
-              <a className='options grey-text'> <span className='green-text'>04.</span> Contact</a>
+              <a className='options grey-text'> <span className='green-text'>04.<br /></span> Contact</a>
             </li>
             <li>
               <ResumeButton />
