@@ -1,5 +1,5 @@
 import React from 'react';
-import Caret from '../components/icons/caret';
+// import Caret from '../components/icons/caret';
 
 export default function Experience(props) {
   return (
@@ -16,6 +16,5 @@ export default function Experience(props) {
         </div>
       </div>
     </div>
-
   );
 }
