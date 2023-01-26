@@ -4,6 +4,7 @@ import Home from './pages/home';
 import Icons from './components/side-icons';
 import SideEmail from './components/side-email';
 import AboutMe from './pages/about-me';
+import Experience from './pages/experience';
 
 export default class App extends React.Component {
   render() {
@@ -20,8 +21,11 @@ export default class App extends React.Component {
               <div className="row home-view">
                 <Home />
               </div>
-              <div className="row">
+              <div className="row margin-bottom-40">
                 <AboutMe />
+              </div>
+              <div className="row margin-bottom-40">
+                <Experience />
               </div>
             </div>
           </div>

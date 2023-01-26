@@ -75,6 +75,10 @@
   text-decoration: none;
 }
 
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
 button {
   background-color: #181818;
   padding: 10px 20px;
