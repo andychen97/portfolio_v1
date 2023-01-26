@@ -114,6 +114,10 @@ button:hover {
   margin-top: -10px;
 }
 
+.feather-x {
+  margin-right: 20px;
+}
+
 .modal {
   top: 0;
   right: 0;

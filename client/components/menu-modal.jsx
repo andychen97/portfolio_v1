@@ -5,12 +5,13 @@ import ExitIcon from './icons/exit';
 export default class MenuModal extends React.Component {
 
   render() {
-    const menuShow = this.props.showMenu ? 'drop-menu' : 'hide-menu';
+    const menuShow = this.props.showMenu.menuIcon ? 'hide-menu' : 'drop-menu';
+    const exitMenu = this.props.showMenu.modal ? 'drop-menu' : 'hide-menu';
     return (
-      <div className={`row align-center modal ${menuShow}`}>
+      <div className={`row align-center modal ${menuShow} ${exitMenu}`}>
         <div className="modal-content">
-          <div className="row flex-end">
-            <ExitIcon />
+          <div className={`row flex-end ${exitMenu}`} onClick={this.props.menuFunc}>
+            <ExitIcon/>
           </div>
           <ul>
             <li>

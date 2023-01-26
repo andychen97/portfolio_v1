@@ -7,22 +7,21 @@ export default class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      menu: false,
-      modal: true
+      menuIcon: true,
+      modal: false
     };
     this.menu = this.menu.bind(this);
   }
 
   menu(event) {
-
     this.setState({
-      menu: !this.state.menu,
+      menuIcon: !this.state.menuIcon,
       modal: !this.state.modal
     });
   }
 
   render() {
-    const showMenu = this.state.menu;
+    const showMenu = this.state;
     return (
       <div>
         <div className='row align-center space-between'>
@@ -38,7 +37,7 @@ export default class Header extends React.Component {
             <Menu />
           </div>
         </div>
-        <MenuModal showMenu={showMenu}/>
+        <MenuModal showMenu={showMenu} menuFunc={this.menu}/>
       </div>
     );
   }
