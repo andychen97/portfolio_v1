@@ -23,6 +23,18 @@
   display: none !important;
 }
 
+.menu-sub {
+  display: flex !important;
+}
+
+.drop-menu {
+  display: flex !important;
+}
+
+.hide-menu {
+  display: none !important;
+}
+
 .home-title {
   justify-content: center;
 }
@@ -62,16 +74,20 @@
   .home-title {
     justify-content: flex-start;
   }
-
-  .show-sides {
-    display: flex !important;
-  }
 }
 
 @media screen and (min-width: 769px) {
   .body-layout {
     padding: 0 10%;
     margin: 0 auto;
+  }
+
+  .show-sides {
+    display: flex !important;
+  }
+
+  .menu-sub {
+    display: none !important;
   }
 
   .options {
