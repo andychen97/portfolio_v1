@@ -14,13 +14,15 @@ export default class App extends React.Component {
             <Header />
           </div>
         </div>
-        <div className="row body-layout">
-          <div className="col-1">
-            <div className="row home-view">
-              <Home />
-            </div>
-            <div className="row">
-              <AboutMe />
+        <div className="body-layout">
+          <div className="row">
+            <div className="col-1">
+              <div className="row home-view">
+                <Home />
+              </div>
+              <div className="row">
+                <AboutMe />
+              </div>
             </div>
           </div>
         </div>

@@ -78,8 +78,9 @@
 
 @media screen and (min-width: 769px) {
   .body-layout {
-    padding: 0 10%;
     margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 20px;
   }
 
   .show-sides {
