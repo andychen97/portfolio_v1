@@ -1,0 +1,144 @@
+.body-layout {
+  max-width: 1200px;
+}
+
+.home-hi {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.home-name {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.home-descript {
+  line-height: 1.5;
+  font-size: 1rem;
+  width: 90%;
+  margin-top: 0;
+}
+
+.show-sides {
+  display: none !important;
+}
+
+.home-title {
+  justify-content: center;
+}
+
+@media screen and (min-width: 375px) {
+  .home-hi {
+    font-size: 0.8rem;
+  }
+
+  .home-name {
+    font-size: 2rem;
+  }
+
+  .home-descript {
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+}
+
+/* for only styles between 320px and 768px (most mobile devies) */
+
+@media screen and (min-width: 500px) {
+  .home-hi {
+    font-size: 0.75rem;
+  }
+
+  .home-name {
+    font-size: 2rem;
+  }
+
+  .home-descript {
+    line-height: 1.5;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .home-title {
+    justify-content: flex-start;
+  }
+
+  .show-sides {
+    display: flex !important;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .body-layout {
+    padding: 0 10%;
+    margin: 0 auto;
+  }
+
+  .options {
+    margin-right: 20px;
+    font-size: 0.75rem;
+  }
+
+  button {
+    font-size: 0.75rem;
+  }
+
+  .home-hi {
+    font-size: 1.75vw;
+    margin-bottom: 30px;
+  }
+
+  .home-name {
+    font-size: 6.5vw;
+    margin: 0;
+  }
+
+  .home-descript {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    width: 80%;
+    margin-top: 15px;
+  }
+
+  .about-descript {
+    font-size: 18px;
+  }
+
+  ul.skills > li {
+    font-size: 12px;
+  }
+
+  .order-1 {
+    order: 2;
+  }
+
+  .order-2 {
+    order: 1;
+  }
+
+  .header {
+    font-size: 2rem;
+  }
+
+  .numbering {
+    font-size: 1.5rem;
+  }
+}
+
+/* only tablet styles */
+@media screen and (min-width: 1025px) {
+  .home-hi {
+    margin-top: 0;
+    font-size: 15px;
+  }
+
+  .home-name {
+    font-size: 70px;
+  }
+
+  .home-descript {
+    line-height: 1.5;
+    font-size: 20px;
+    width: 70%;
+  }
+}
