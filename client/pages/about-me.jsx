@@ -5,14 +5,14 @@ import Caret from '../components/icons/caret';
 export default function AboutMe(props) {
   return (
     <div id='about-me'>
-      <div className="row align-center">
+      <div className="row align-center head-num">
         <h3 className='grey-text header'>
           <span className='green-text sfmono numbering'>01. </span>
           About Me</h3>
         <hr />
       </div>
-      <div className="row grey-text about-descript">
-        <div className='col-4-10 order-1'>
+      <div className="row flex-wrap grey-text about-descript">
+        <div className='col-4-10 order-1 justify-center'>
           <div className="row justify-center">
             <img src={Selfie} alt='A selfie.' className='selfie' />
           </div>
