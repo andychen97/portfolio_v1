@@ -7,6 +7,11 @@
   margin: 10px 0;
 }
 
+.title-name {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
 .home-name {
   font-size: 2rem;
   margin: 10px 0;
@@ -16,27 +21,44 @@
   line-height: 1.5;
   font-size: 1rem;
   width: 90%;
-  margin-top: 0;
+  text-align: center;
+
+  /* margin-top: 0; */
+  margin: 0 auto;
 }
 
+hr {
+  width: 50%;
+}
+
+.hide-menu,
 .show-sides {
   display: none !important;
 }
 
-.menu-sub {
-  display: flex !important;
-}
-
+.menu-sub,
 .drop-menu {
   display: flex !important;
 }
 
-.hide-menu {
-  display: none !important;
+.col-4-10 {
+  flex-basis: 100%;
 }
 
-.home-title {
+.col-6-10 {
+  flex-basis: 100%;
+}
+
+.home-title,
+.head-num {
   justify-content: center;
+}
+
+.selfie {
+  max-width: 60%;
+  border-radius: 50%;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 375px) {
@@ -44,6 +66,7 @@
     font-size: 0.8rem;
   }
 
+  .title-name,
   .home-name {
     font-size: 2rem;
   }
@@ -51,6 +74,10 @@
   .home-descript {
     line-height: 1.5;
     font-size: 1rem;
+  }
+
+  hr {
+    width: 57%;
   }
 }
 
@@ -61,22 +88,40 @@
     font-size: 0.75rem;
   }
 
-  .home-name {
-    font-size: 2rem;
-  }
-
   .home-descript {
     line-height: 1.5;
     font-size: 1rem;
     width: 100%;
   }
 
-  .home-title {
-    justify-content: flex-start;
+  hr {
+    width: 65%;
   }
 }
 
 @media screen and (min-width: 769px) {
+  .home-title,
+  .head-num {
+    justify-content: flex-start;
+  }
+
+  .home-descript {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    width: 80%;
+    margin-top: 15px;
+    text-align: start;
+    margin-left: 0;
+  }
+
+  .col-4-10 {
+    flex-basis: 40%;
+  }
+
+  .col-6-10 {
+    flex-basis: 60%;
+  }
+
   .body-layout {
     margin: 0 auto;
     padding-left: 50px;
@@ -105,16 +150,14 @@
     margin-bottom: 30px;
   }
 
+  .title-name,
   .home-name {
     font-size: 6.5vw;
     margin: 0;
   }
 
-  .home-descript {
-    line-height: 1.5;
-    font-size: 1.2rem;
-    width: 80%;
-    margin-top: 15px;
+  hr {
+    width: 250px;
   }
 
   .about-descript {
@@ -140,6 +183,12 @@
   .numbering {
     font-size: 1.5rem;
   }
+
+  .selfie {
+    max-width: 80%;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
 }
 
 /* only tablet styles */
@@ -149,6 +198,7 @@
     font-size: 15px;
   }
 
+  .title-name,
   .home-name {
     font-size: 70px;
   }
@@ -157,5 +207,9 @@
     line-height: 1.5;
     font-size: 20px;
     width: 70%;
+  }
+
+  hr {
+    width: 350px;
   }
 }

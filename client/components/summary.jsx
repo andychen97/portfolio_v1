@@ -12,7 +12,7 @@ export default function Summary(props) {
             <h1 className='white-text home-name'>Andy Chen.</h1>
           </div>
           <div className="row home-title">
-            <h1 className='grey-text home-name'>I am a software developer.</h1>
+            <h1 className='grey-text title-name'>I am a software developer.</h1>
           </div>
         </div>
       </div>

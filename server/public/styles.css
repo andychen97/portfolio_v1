@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .col-1 {
   flex-basis: 100%;
 }
@@ -10,13 +14,13 @@
   flex-basis: 50%;
 }
 
-.col-4-10 {
+/* .col-4-10 {
   flex-basis: 40%;
 }
 
 .col-6-10 {
   flex-basis: 60%;
-}
+} */
 
 .col-7 {
   flex-basis: 70%;
@@ -250,9 +254,10 @@ ul.modal-menu-ul > li {
 }
 
 hr {
-  width: 250px;
+  /* width: 250px; */
   height: 1px;
   border: 0 none;
+  margin-right: 0;
   margin-bottom: 2%;
   margin-left: 25px;
   color: #ccd6f6;
@@ -266,11 +271,11 @@ hr {
   /* font-size: 1.7vw; */
 }
 
-.selfie {
+/* .selfie {
   max-width: 80%;
   border-radius: 5px;
   margin-top: 20px;
-}
+} */
 
 .bi-caret-right {
   margin-right: 10px;
