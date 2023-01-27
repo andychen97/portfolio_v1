@@ -5,6 +5,8 @@ import Icons from './components/side-icons';
 import SideEmail from './components/side-email';
 import AboutMe from './pages/about-me';
 import Experience from './pages/experience';
+import Projects from './pages/projects';
+import Contact from './pages/contact-me';
 
 export default class App extends React.Component {
   render() {
@@ -26,6 +28,12 @@ export default class App extends React.Component {
               </div>
               <div className="row margin-bottom-40">
                 <Experience />
+              </div>
+              <div className="row margin-bottom-40">
+                <Projects />
+              </div>
+              <div className="row margin-bottom-40">
+                <Contact />
               </div>
             </div>
           </div>

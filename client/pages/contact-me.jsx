@@ -1,13 +1,13 @@
 import React from 'react';
 // import Caret from '../components/icons/caret';
 
-export default function Experience(props) {
+export default function Contact(props) {
   return (
-    <div id='experience'>
+    <div id='contact-me'>
       <div className="row align-center head-num">
         <h3 className='grey-text header'>
-          <span className='green-text sfmono numbering'>02. </span>
-          Experience</h3>
+          <span className='green-text sfmono numbering'>04. </span>
+          Contact Me</h3>
         <hr />
       </div>
       <div className="row">
