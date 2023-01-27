@@ -1,5 +1,5 @@
 import React from 'react';
-// import Caret from '../components/icons/caret';
+import FoodFinder from '../../server/public/images/foodfinder.png';
 
 export default function Projects(props) {
   return (
@@ -10,9 +10,11 @@ export default function Projects(props) {
           Projects</h3>
         <hr />
       </div>
-      <div className="row">
-        <div className="col-1">
-          <h1> hello</h1>
+      <div className="row flex-wrap">
+        <div className="col-3">
+          <figure className='project-effect'>
+            <img src={FoodFinder} alt="" className="projects-image" />
+          </figure>
         </div>
       </div>
     </div>
