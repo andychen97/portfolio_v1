@@ -1,3 +1,7 @@
+.col-3 {
+  flex-basis: 100%;
+}
+
 .body-layout {
   max-width: 1200px;
 }
@@ -84,6 +88,10 @@ hr {
 /* for only styles between 320px and 768px (most mobile devies) */
 
 @media screen and (min-width: 500px) {
+  .col-3 {
+    flex-basis: 50%;
+  }
+
   .home-hi {
     font-size: 0.75rem;
   }
@@ -120,6 +128,10 @@ hr {
 
   .col-6-10 {
     flex-basis: 60%;
+  }
+
+  .col-3 {
+    flex-basis: calc(100% / 3);
   }
 
   .body-layout {
