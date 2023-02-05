@@ -1,5 +1,5 @@
 import React from 'react';
-import Selfie from '../../server/public/selfie.jpg';
+import Selfie from '../../server/public/images/selfie.jpg';
 import Caret from '../components/icons/caret';
 
 export default function AboutMe(props) {

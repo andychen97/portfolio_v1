@@ -1,5 +1,7 @@
 import React from 'react';
-// import Caret from '../components/icons/caret';
+import FoodFinder from '../../server/public/images/foodfinder.png';
+import CravingCreations from '../../server/public/images/cravingcreations.png';
+import CodeJournal from '../../server/public/images/codejournal.png';
 
 export default function Projects(props) {
   return (
@@ -10,9 +12,27 @@ export default function Projects(props) {
           Projects</h3>
         <hr />
       </div>
-      <div className="row">
-        <div className="col-1">
-          <h1> hello</h1>
+      <div className="row flex-wrap">
+        <div className="col-3">
+          <figure className='project-effect pointer'>
+            <a href='https://lfzfoodfinder.com/' target="_blank" rel="noreferrer">
+              <img src={FoodFinder} alt="" className="projects-image" />
+            </a>
+          </figure>
+        </div>
+        <div className="col-3">
+          <figure className='project-effect pointer'>
+            <a href='https://andychen97.github.io/craving-creations/' target="_blank" rel="noreferrer">
+              <img src={CravingCreations} alt="" className="projects-image" />
+            </a>
+          </figure>
+        </div>
+        <div className="col-3">
+          <figure className='project-effect pointer'>
+            <a href='https://andychen97.github.io/code-journal/' target="_blank" rel="noreferrer">
+              <img src={CodeJournal} alt="" className="projects-image" />
+            </a>
+          </figure>
         </div>
       </div>
     </div>

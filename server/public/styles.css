@@ -14,6 +14,10 @@
   flex-basis: 50%;
 }
 
+/* .col-3 {
+  flex-basis: calc(100% / 3);
+} */
+
 /* .col-4-10 {
   flex-basis: 40%;
 }
@@ -295,4 +299,25 @@ ul.skills > li {
   display: flex;
   align-items: center;
   width: 100%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.projects-image {
+  height: 200px;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.project-effect:hover {
+  opacity: 0.4;
+}
+
+figure {
+  margin: 10px;
 }
