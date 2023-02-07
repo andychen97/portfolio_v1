@@ -18,13 +18,13 @@ export default class MenuModal extends React.Component {
               <a href='#about-me' className='options grey-text'> <span className='green-text'>01.<br /></span> About Me</a>
             </li>
             <li>
-              <a className='options grey-text'> <span className='green-text'>02.<br /></span> Experience</a>
+              <a href='#experience' className='options grey-text'> <span className='green-text'>02.<br /></span> Experience</a>
             </li>
             <li>
-              <a className='options grey-text'> <span className='green-text'>03.<br /></span> Work</a>
+              <a href='#projects' className='options grey-text'> <span className='green-text'>03.<br /></span> Work</a>
             </li>
             <li>
-              <a className='options grey-text'> <span className='green-text'>04.<br /></span> Contact</a>
+              <a href='#contact-me' className='options grey-text'> <span className='green-text'>04.<br /></span> Contact</a>
             </li>
             <li>
               <ResumeButton />
