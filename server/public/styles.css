@@ -54,6 +54,10 @@
   align-items: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -105,6 +109,10 @@ button:hover {
   font-family: SFMono, sans-serif;
   writing-mode: vertical-lr;
   margin: 0 0 20px;
+}
+
+.side-email:hover {
+  transform: translate(0, -2px);
 }
 
 .side-email:hover,
@@ -320,4 +328,8 @@ ul.skills > li {
 
 figure {
   margin: 10px;
+}
+
+.ma-0-auto {
+  margin: 0 auto 50px;
 }

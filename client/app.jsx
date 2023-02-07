@@ -23,16 +23,16 @@ export default class App extends React.Component {
               <div className="row home-view">
                 <Home />
               </div>
-              <div className="row margin-bottom-40">
+              <div className="margin-bottom-40">
                 <AboutMe />
               </div>
-              <div className="row margin-bottom-40">
+              <div className="margin-bottom-40">
                 <Experience />
               </div>
-              <div className="row margin-bottom-40">
+              <div className="margin-bottom-40">
                 <Projects />
               </div>
-              <div className="row margin-bottom-40">
+              <div className="margin-bottom-40">
                 <Contact />
               </div>
             </div>
