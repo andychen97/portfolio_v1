@@ -38,8 +38,10 @@ export default class App extends React.Component {
             </div>
           </div>
         </div>
-        <div className="row space-between bottom-fixed show-sides">
+        <div className="row bottom-fixed show-sides">
           <Icons />
+        </div>
+        <div className="row bottom-fixed-right show-sides">
           <SideEmail />
         </div>
       </div>
