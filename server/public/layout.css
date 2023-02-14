@@ -105,6 +105,10 @@ hr {
   hr {
     width: 65%;
   }
+
+  .vertical-timeline-element-content p {
+    font-size: 18px !important;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -172,8 +176,13 @@ hr {
     width: 250px;
   }
 
+  /* .vertical-timeline-element-content p, */
   .about-descript {
     font-size: 18px;
+  }
+
+  .vertical-timeline-element-content p {
+    font-size: 18px !important;
   }
 
   ul.skills > li {

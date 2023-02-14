@@ -1,4 +1,5 @@
 import React from 'react';
+import Timeline from '../components/timeline';
 // import Caret from '../components/icons/caret';
 
 export default function Experience(props) {
@@ -12,7 +13,7 @@ export default function Experience(props) {
       </div>
       <div className="row">
         <div className="col-1">
-          <h1> hello</h1>
+          <Timeline />
         </div>
       </div>
     </div>
