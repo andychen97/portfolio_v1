@@ -346,3 +346,11 @@ figure {
 .ma-0-auto {
   margin: 0 auto 50px;
 }
+
+.vertical-timeline-element-content {
+  box-shadow: none !important;
+}
+
+.vertical-timeline-element-content p {
+  font-weight: 300 !important;
+}
