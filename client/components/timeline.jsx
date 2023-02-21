@@ -2,6 +2,10 @@ import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import LFZIcon from '../components/icons/lfz-icon';
+import SkylineLogo from '../components/icons/skyline-logo';
+import SJSULogo from '../components/icons/sjsu-logo';
+import StocksLogo from '../components/icons/stocks-logo';
+import ThirdStreetLogo from '../components/icons/third-street-logo';
 
 export default function Timeline() {
   return (
@@ -41,7 +45,7 @@ export default function Timeline() {
           contentArrowStyle={{ borderRight: '9px solid  rgb(30,37,48)' }}
           date="January 2020 &#8211; January 2022"
           iconStyle={{ background: 'white', color: 'black' }}
-          icon={<LFZIcon />}>
+          icon={<StocksLogo />}>
           <h3 className="vertical-timeline-element-title">Options Trader (Personal Financial Portfolio) </h3>
           <h4 className="vertical-timeline-element-subtitle">Self-employed</h4>
           <h4 className="vertical-timeline-element-subtitle">San Francisco, California</h4>
@@ -57,7 +61,7 @@ export default function Timeline() {
           contentArrowStyle={{ borderRight: '9px solid  rgb(30,37,48)' }}
           date="August 2018 &#8211; May 2020"
           iconStyle={{ background: 'white', color: 'black' }}
-          icon={<LFZIcon />}>
+          icon={<SJSULogo />}>
           <h3 className="vertical-timeline-element-title">Student at San Jose State University </h3>
           <h4 className="vertical-timeline-element-subtitle">BS - Business : Management Information Systems</h4>
           <h4 className="vertical-timeline-element-subtitle">San Jose, California</h4>
@@ -70,7 +74,7 @@ export default function Timeline() {
           contentArrowStyle={{ borderRight: '9px solid  rgb(30,37,48)' }}
           date="January 2020 &#8211; May 2020"
           iconStyle={{ background: 'white', color: 'black' }}
-          icon={<LFZIcon />}>
+          icon={<ThirdStreetLogo />}>
           <h3 className="vertical-timeline-element-title">Web Developer (Contracted Academic Project)  </h3>
           <h4 className="vertical-timeline-element-subtitle">Third Street Community Center</h4>
           <h4 className="vertical-timeline-element-subtitle">San Jose, California</h4>
@@ -83,7 +87,7 @@ export default function Timeline() {
           contentArrowStyle={{ borderRight: '9px solid  rgb(30,37,48)' }}
           date="August 2014 &#8211; May 2018"
           iconStyle={{ background: 'white', color: 'black' }}
-          icon={<LFZIcon />}>
+          icon={<SkylineLogo />}>
           <h3 className="vertical-timeline-element-title">Student at Skyline College </h3>
           <h4 className="vertical-timeline-element-subtitle">AA - Business Administration</h4>
           <h4 className="vertical-timeline-element-subtitle">San Bruno, California</h4>
