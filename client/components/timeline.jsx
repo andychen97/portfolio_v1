@@ -17,7 +17,7 @@ export default function Timeline() {
           date="August 2022 &#8211; Present"
           iconStyle={{ background: 'white', color: 'black' }}
           icon={<LFZIcon />}>
-          <h3 className="vertical-timeline-element-title">Teacher&apos;s Assistant (Full Stack Web Development)</h3>
+          <h3 className="vertical-timeline-element-title">Web Dev Teacher&apos;s Assistant</h3>
           <h4 className="vertical-timeline-element-subtitle">LearningFuze</h4>
           <h4 className="vertical-timeline-element-subtitle">Irvine, California</h4>
           <p>
@@ -37,7 +37,7 @@ export default function Timeline() {
           <h4 className="vertical-timeline-element-subtitle">LearningFuze</h4>
           <h4 className="vertical-timeline-element-subtitle">Irvine, California</h4>
           <p>
-            Went back to school to learn full-stack web development where I gained a completely new set of skills in HTML, CSS, JavaScript,
+            I went back to school to learn full-stack web development where I gained a completely new set of skills in HTML, CSS, JavaScript,
             Node.js, Express.js, PostgreSQL, and React.
           </p>
         </VerticalTimelineElement>

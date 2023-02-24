@@ -1,6 +1,5 @@
 import React from 'react';
 import Timeline from '../components/timeline';
-// import Caret from '../components/icons/caret';
 
 export default function Experience(props) {
   return (
