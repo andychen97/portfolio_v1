@@ -26,9 +26,12 @@
   font-size: 1rem;
   width: 90%;
   text-align: center;
-
-  /* margin-top: 0; */
   margin: 0 auto;
+}
+
+ul.skills > li {
+  font-size: 0.75rem;
+  margin-bottom: 0;
 }
 
 hr {
@@ -66,6 +69,7 @@ hr {
 }
 
 @media screen and (min-width: 375px) {
+  ul.skills > li,
   .home-hi {
     font-size: 0.8rem;
   }
@@ -85,13 +89,12 @@ hr {
   }
 }
 
-/* for only styles between 320px and 768px (most mobile devies) */
-
 @media screen and (min-width: 500px) {
   .col-3 {
     flex-basis: 50%;
   }
 
+  ul.skills > li,
   .home-hi {
     font-size: 0.75rem;
   }
@@ -176,17 +179,12 @@ hr {
     width: 250px;
   }
 
-  /* .vertical-timeline-element-content p, */
   .about-descript {
     font-size: 18px;
   }
 
   .vertical-timeline-element-content p {
     font-size: 18px !important;
-  }
-
-  ul.skills > li {
-    font-size: 12px;
   }
 
   .order-1 {
@@ -212,7 +210,6 @@ hr {
   }
 }
 
-/* only tablet styles */
 @media screen and (min-width: 1025px) {
   .home-hi {
     margin-top: 0;

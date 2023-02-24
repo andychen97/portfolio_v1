@@ -23,17 +23,22 @@ export default class App extends React.Component {
               <div className="row home-view">
                 <Home />
               </div>
-              <div className="margin-bottom-40">
+              <div className="section-view">
                 <AboutMe />
               </div>
-              <div className="margin-bottom-40">
+              <div className="section-view">
                 <Experience />
               </div>
-              <div className="margin-bottom-40">
+              <div className="section-view">
                 <Projects />
               </div>
-              <div className="margin-bottom-40">
+              <div className="section-view">
                 <Contact />
+              </div>
+              <div className="row space-around">
+                <p className='grey-text footer'>
+                  Designed & Built by Andy Chen with React.
+                </p>
               </div>
             </div>
           </div>

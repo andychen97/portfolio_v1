@@ -30,8 +30,8 @@ export default function AboutMe(props) {
               <br />
               I subsequently enrolled in an accelerated, in-person full-stack web development program in
               Irvine, California where I acquired comprehensive skills in HTML, CSS, JavaScript, Node.js,
-              Express.js, PostgreSQL, React, and data structures and algorithms. Having completed the
-              program, I am currently working as a TA and continue to improve my skills through daily
+              Express.js, PostgreSQL, React, data structures and algorithms. Having completed the program,
+              I am currently working as a Web Dev TA and continue to improve my skills through daily
               leetcoding. I am now seeking new opportunities to apply my skills in the web development
               industry.
               <br />
