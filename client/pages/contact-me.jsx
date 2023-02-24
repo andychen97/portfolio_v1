@@ -1,5 +1,4 @@
 import React from 'react';
-// import Caret from '../components/icons/caret';
 
 export default function Contact(props) {
   return (

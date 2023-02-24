@@ -26,6 +26,10 @@
   flex-basis: 10%;
 }
 
+.content {
+  flex-basis: content;
+}
+
 .green-text {
   color: #62f8d5;
 }
@@ -64,13 +68,13 @@
 }
 
 .options {
-  cursor: pointer;
   font-family: SFMono, sans-serif;
   text-decoration: none;
+  cursor: pointer;
 }
 
-.margin-bottom-40 {
-  margin-bottom: 40px;
+.options:hover {
+  color: #62f8d5;
 }
 
 button {
@@ -93,16 +97,23 @@ button:hover {
   font-family: SFMono, sans-serif;
   writing-mode: vertical-lr;
   margin: 0 0 20px;
+  cursor: pointer;
 }
 
-.side-email:hover {
-  transform: translate(0, -2px);
+.icons {
+  height: 20px;
+  width: 20px;
+  max-width: 20px;
+  max-height: 20px;
+  color: #8892b0;
+  margin: 0 0 20px;
+  cursor: pointer;
 }
 
 .side-email:hover,
-.options:hover {
-  color: #62f8d5;
-  cursor: pointer;
+.icons:hover {
+  color: rgb(98, 248, 213);
+  transform: translate(0, -2px);
 }
 
 .left-auto {
@@ -164,25 +175,6 @@ ul.modal-menu-ul > li {
   vertical-align: center;
 }
 
-.modal-menu-ul {
-  margin: 0 auto;
-}
-
-.icons {
-  height: 20px;
-  width: 20px;
-  max-width: 20px;
-  max-height: 20px;
-  color: #8892b0;
-  margin: 0 0 20px;
-  cursor: pointer;
-}
-
-.icons:hover {
-  color: rgb(98, 248, 213);
-  transform: translate(0, -2px);
-}
-
 .bottom-fixed {
   position: fixed;
   bottom: 0;
@@ -213,10 +205,6 @@ ul.modal-menu-ul > li {
   margin: 0 7px;
 }
 
-.content {
-  flex-basis: content;
-}
-
 .margin-40 {
   margin-left: 40%;
 }
@@ -236,10 +224,6 @@ ul.modal-menu-ul > li {
 
 .home-descript {
   font-weight: 300;
-}
-
-.font-20 {
-  font-size: 2vw;
 }
 
 hr {
