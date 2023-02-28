@@ -68,6 +68,20 @@ hr {
   margin-bottom: 20px;
 }
 
+.sjsu-logo {
+  transform: scale(1.4);
+}
+
+.lfz-logo,
+.skyline-logo,
+.stocks-logo {
+  transform: scale(1.7);
+}
+
+.third-street-logo {
+  transform: scale(3.7);
+}
+
 @media screen and (min-width: 375px) {
   ul.skills > li,
   .home-hi {
@@ -82,10 +96,6 @@ hr {
   .home-descript {
     line-height: 1.5;
     font-size: 1rem;
-  }
-
-  hr {
-    width: 57%;
   }
 }
 
@@ -229,5 +239,21 @@ hr {
 
   hr {
     width: 350px;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .sjsu-logo {
+    transform: scale(2);
+  }
+
+  .lfz-logo,
+  .skyline-logo,
+  .stocks-logo {
+    transform: scale(2.4);
+  }
+
+  .third-street-logo {
+    transform: scale(5);
   }
 }
