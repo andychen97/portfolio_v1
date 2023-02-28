@@ -8,7 +8,7 @@ const LFZIcon = () => (
     viewBox="0 0 194 177"
     enableBackground="new 0 0 194 177"
     xmlSpace="preserve"
-    style={{ transform: 'scale(1.9)' }}>
+    className='lfz-logo'>
     <path opacity="0" stroke="none"
       d="
           M149.000000,178.000000

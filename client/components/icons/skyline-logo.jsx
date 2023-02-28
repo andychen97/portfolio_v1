@@ -10,7 +10,7 @@ const SkylineLogo = () => (
     viewBox="0 0 224 225"
     enableBackground="new 0 0 468 491"
     xmlSpace="preserve"
-    style={{ transform: 'scale(1.7)' }}>
+    className='skyline-logo'>
     <path fill="#FFF" opacity="000000" stroke="none"
       d="
       M132.000000,226.000000

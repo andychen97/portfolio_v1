@@ -7,7 +7,7 @@ const ThirdStreetLogo = () => (
     height="720.000000pt"
     viewBox="0 0 1280.000000 720.000000"
     preserveAspectRatio="xMidYMid meet"
-    style={{ transform: 'scale(3.7)' }}>
+    className='third-street-logo'>
     <g transform="translate(0.000000,720.000000) scale(0.100000,-0.100000)"
       fill="#000000" stroke="none">
       <path d="M5480 5407 c-9 -7 -15 -23 -14 -37 1 -14 3 -74 5 -135 3 -113 10
