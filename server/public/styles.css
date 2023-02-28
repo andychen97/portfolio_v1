@@ -289,6 +289,14 @@ figure {
   font-weight: 300 !important;
 }
 
+.vertical-timeline-element-icon {
+  background: #8892b0 !important;
+  box-shadow:
+    0 0 0 4px #8892b0,
+    inset 0 2px 0 rgba(136, 146, 175, 0.08),
+    0 3px 0 4px rgba(136, 146, 175, 0.05) !important;
+}
+
 .footer {
   font-size: 12px;
   font-family: SFMono, sans-serif;

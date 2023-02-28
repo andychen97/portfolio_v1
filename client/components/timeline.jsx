@@ -10,7 +10,8 @@ import ThirdStreetLogo from '../components/icons/third-street-logo';
 export default function Timeline() {
   return (
     <div>
-      <VerticalTimeline>
+      <VerticalTimeline
+        lineColor='#8892b0'>
         <VerticalTimelineElement
           contentStyle={{ background: 'rgb(30,37,48)', color: '#D0D1D2' }}
           contentArrowStyle={{ borderRight: '9px solid  rgb(30,37,48)' }}
