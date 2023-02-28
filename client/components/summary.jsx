@@ -19,7 +19,7 @@ export default function Summary(props) {
       <div className="row">
         <div className="col-1">
           <p className='grey-text home-descript'>
-            I am a software engineer with a background in Information Systems and
+            I am a software developer with a background in Information Systems and
             Web Development. I graduated from&nbsp;
             <a href='https://sjsu.edu/' target='_blank' rel="noreferrer" className='links green-text'>
               San Jose State University
