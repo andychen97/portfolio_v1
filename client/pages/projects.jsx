@@ -1,9 +1,30 @@
 import React from 'react';
+import ProjectLayout from '../components/projects-layout';
 import FoodFinder from '../../server/public/images/foodfinder.png';
 import CravingCreations from '../../server/public/images/cravingcreations.png';
 import CodeJournal from '../../server/public/images/codejournal.png';
 
 export default function Projects(props) {
+  const projects = [
+    {
+      link: 'https://lfzfoodfinder.com/',
+      image: FoodFinder,
+      alternative: 'lfzfoodfinder landing page',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'React']
+    },
+    {
+      link: 'https://andychen97.github.io/craving-creations/',
+      image: CravingCreations,
+      alternative: 'CravingCreations landing page',
+      technologies: ['HTML', 'CSS', 'JavaScript']
+    },
+    {
+      link: 'https://andychen97.github.io/code-journal/',
+      image: CodeJournal,
+      alternative: 'CodeJournal landing page',
+      technologies: ['HTML', 'CSS', 'JavaScript']
+    }
+  ];
   return (
     <div id='projects'>
       <div className="row align-center head-num">
@@ -13,27 +34,10 @@ export default function Projects(props) {
         <hr />
       </div>
       <div className="row flex-wrap">
-        <div className="col-3">
-          <figure className='project-effect pointer'>
-            <a href='https://lfzfoodfinder.com/' target="_blank" rel="noreferrer">
-              <img src={FoodFinder} alt="" className="projects-image" />
-            </a>
-          </figure>
-        </div>
-        <div className="col-3">
-          <figure className='project-effect pointer'>
-            <a href='https://andychen97.github.io/craving-creations/' target="_blank" rel="noreferrer">
-              <img src={CravingCreations} alt="" className="projects-image" />
-            </a>
-          </figure>
-        </div>
-        <div className="col-3">
-          <figure className='project-effect pointer'>
-            <a href='https://andychen97.github.io/code-journal/' target="_blank" rel="noreferrer">
-              <img src={CodeJournal} alt="" className="projects-image" />
-            </a>
-          </figure>
-        </div>
+        {projects.map(({ link, image, alternative }) => {
+          return ProjectLayout(link, image, alternative);
+        })
+      }
       </div>
     </div>
   );
