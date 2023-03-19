@@ -7,18 +7,24 @@ import CodeJournal from '../../server/public/images/codejournal.png';
 export default function Projects(props) {
   const projects = [
     {
+      title: 'Food Finder',
+      description: 'A full stack app that i built during my time at learningfuze',
       link: 'https://lfzfoodfinder.com/',
       image: FoodFinder,
       alternative: 'lfzfoodfinder landing page',
       technologies: ['HTML', 'CSS', 'JavaScript', 'React']
     },
     {
+      title: 'Craving Creations',
+      description: 'An app that i built during my time at learningfuze',
       link: 'https://andychen97.github.io/craving-creations/',
       image: CravingCreations,
       alternative: 'CravingCreations landing page',
       technologies: ['HTML', 'CSS', 'JavaScript']
     },
     {
+      title: 'Code Journal',
+      description: 'An app that i built during my time at learningfuze',
       link: 'https://andychen97.github.io/code-journal/',
       image: CodeJournal,
       alternative: 'CodeJournal landing page',
@@ -34,8 +40,8 @@ export default function Projects(props) {
         <hr />
       </div>
       <div className="row flex-wrap">
-        {projects.map(({ link, image, alternative }) => {
-          return ProjectLayout(link, image, alternative);
+        {projects.map(({ title, description, link, image, alternative, technologies }) => {
+          return ProjectLayout(title, description, link, image, alternative, technologies);
         })
       }
       </div>
