@@ -1,5 +1,9 @@
-.col-3 {
+.col-2 {
   flex-basis: 100%;
+}
+
+.project-layout {
+  height: 525px;
 }
 
 .body-layout {
@@ -88,6 +92,10 @@ hr {
     font-size: 0.8rem;
   }
 
+  .project-layout {
+    height: 520px;
+  }
+
   .title-name,
   .home-name {
     font-size: 2rem;
@@ -100,8 +108,12 @@ hr {
 }
 
 @media screen and (min-width: 500px) {
-  .col-3 {
-    flex-basis: 50%;
+  .col-2 {
+    flex-basis: 100%;
+  }
+
+  .project-layout {
+    height: 475px;
   }
 
   ul.skills > li,
@@ -125,6 +137,14 @@ hr {
 }
 
 @media screen and (min-width: 769px) {
+  .col-2 {
+    flex-basis: 50%;
+  }
+
+  .project-layout {
+    height: 550px;
+  }
+
   .home-title,
   .head-num {
     justify-content: flex-start;
@@ -220,7 +240,17 @@ hr {
   }
 }
 
+@media screen and (min-width: 900px) {
+  .project-layout {
+    height: 525px;
+  }
+}
+
 @media screen and (min-width: 1025px) {
+  .project-layout {
+    height: 500px;
+  }
+
   .home-hi {
     margin-top: 0;
     font-size: 15px;
