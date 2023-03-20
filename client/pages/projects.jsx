@@ -16,7 +16,7 @@ export default function Projects(props) {
     },
     {
       title: 'Craving Creations',
-      description: 'A dynamic web application for food lovers to find and organize their recipes.',
+      description: 'A dynamic web application for food lovers to find and organize recipes. Creating this app made me comfortable working with APIs.',
       link: 'https://andychen97.github.io/craving-creations/',
       image: CravingCreations,
       alternative: 'CravingCreations landing page',
@@ -24,7 +24,7 @@ export default function Projects(props) {
     },
     {
       title: 'Code Journal',
-      description: 'My first CRUD application to solidify my knowledge.',
+      description: 'A CRUD application that allows users to log and view their entries. Building this app was my first stepping stone to becoming a software developer.',
       link: 'https://andychen97.github.io/code-journal/',
       image: CodeJournal,
       alternative: 'CodeJournal landing page',
