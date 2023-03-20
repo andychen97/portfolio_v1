@@ -8,27 +8,27 @@ export default function Projects(props) {
   const projects = [
     {
       title: 'Food Finder',
-      description: 'A full stack app that i built during my time at learningfuze',
+      description: "A full-stack web application for food lovers to find restaurants utilizing Yelp's REST API. Some key features include pinpoint mapping (Leaflet API) and user accounts with Argon2 password hashing / salting.",
       link: 'https://lfzfoodfinder.com/',
       image: FoodFinder,
       alternative: 'lfzfoodfinder landing page',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'React']
+      technologies: 'React - Node.js - Express.js - PostgreSQL - Argon2 - Yelp API - Dokku'
     },
     {
       title: 'Craving Creations',
-      description: 'An app that i built during my time at learningfuze',
+      description: 'A dynamic web application for food lovers to find and organize their recipes.',
       link: 'https://andychen97.github.io/craving-creations/',
       image: CravingCreations,
       alternative: 'CravingCreations landing page',
-      technologies: ['HTML', 'CSS', 'JavaScript']
+      technologies: 'HTML - CSS - JavaScript - Tasty API - Dokku'
     },
     {
       title: 'Code Journal',
-      description: 'An app that i built during my time at learningfuze',
+      description: 'My first CRUD application to solidify my knowledge.',
       link: 'https://andychen97.github.io/code-journal/',
       image: CodeJournal,
       alternative: 'CodeJournal landing page',
-      technologies: ['HTML', 'CSS', 'JavaScript']
+      technologies: 'HTML - CSS - JavaScript'
     }
   ];
   return (
