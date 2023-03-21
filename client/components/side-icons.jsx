@@ -8,21 +8,21 @@ export default function Icons() {
     <div className="row">
       <div className="col-10 content">
         <ul>
-          <li>
+          <li className='icon-margins'>
             <a href='https://github.com/andychen97'
               target='_blank'
               rel="noreferrer">
               <GitHubIcon />
             </a>
           </li>
-          <li>
+          <li className='icon-margins'>
             <a href='https://www.linkedin.com/in/andy-chen907/'
               target='_blank'
               rel="noreferrer">
               <LinkedinIcon />
             </a>
           </li>
-          <li>
+          <li className='icon-margins'>
             <a href='https://www.instagram.com/andyy_chenn/'
               target='_blank'
               rel="noreferrer">

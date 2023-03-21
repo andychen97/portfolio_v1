@@ -11,7 +11,7 @@ export default function Timeline() {
   return (
     <div>
       <VerticalTimeline
-        lineColor='#8892b0'>
+        lineColor='#ccd6f6'>
         <VerticalTimelineElement
           contentStyle={{ background: 'rgb(30,37,48)', color: '#D0D1D2' }}
           contentArrowStyle={{ borderRight: '9px solid  rgb(30,37,48)' }}

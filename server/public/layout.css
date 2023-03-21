@@ -167,10 +167,6 @@ hr {
     flex-basis: 60%;
   }
 
-  .col-3 {
-    flex-basis: calc(100% / 3);
-  }
-
   .body-layout {
     margin: 0 auto;
     padding-left: 80px;
