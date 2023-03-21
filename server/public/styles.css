@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -10,8 +14,8 @@
   flex-basis: 100%;
 }
 
-.col-7 {
-  flex-basis: 70%;
+.col-3 {
+  flex-basis: calc(100% / 3);
 }
 
 .col-8 {
@@ -67,6 +71,10 @@
   justify-content: flex-end;
 }
 
+.text-end {
+  text-align: right;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -110,8 +118,20 @@ button:hover {
   max-width: 20px;
   max-height: 20px;
   color: #8892b0;
-  margin: 0 0 20px;
   cursor: pointer;
+}
+
+.icon-margins {
+  margin: 0 0 20px;
+}
+
+.external-links {
+  height: 22px;
+  width: 22px;
+  max-width: 22px;
+  max-height: 22px;
+  margin-right: 10px;
+  margin-left: 5px;
 }
 
 .side-email:hover,
@@ -289,10 +309,6 @@ ul.skills > li {
   position: relative;
 }
 
-.project-layout:hover {
-  transform: translate(0, -4px);
-}
-
 .project-descript {
   font-weight: 400;
 }
@@ -319,9 +335,9 @@ ul.skills > li {
 }
 
 .vertical-timeline-element-icon {
-  background: #8892b0 !important;
+  background: #ccd6f6 !important;
   box-shadow:
-    0 0 0 4px #8892b0,
+    0 0 0 4px #ccd6f6,
     inset 0 2px 0 rgba(136, 146, 175, 0.08),
     0 3px 0 4px rgba(136, 146, 175, 0.05) !important;
 }
