@@ -6,7 +6,7 @@ export default function AboutMe(props) {
   return (
     <div id='about-me'>
       <div className="row align-center head-num">
-        <h3 className='grey-text header'>
+        <h3 className='white-text header'>
           <span className='green-text sfmono numbering'>01. </span>
           About Me</h3>
         <hr />
