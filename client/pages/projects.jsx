@@ -3,9 +3,19 @@ import ProjectLayout from '../components/projects-layout';
 import FoodFinder from '../../server/public/images/foodfinder.png';
 import CravingCreations from '../../server/public/images/cravingcreations.png';
 import CodeJournal from '../../server/public/images/codejournal.png';
+import HomePage from '../../server/public/images/homepage.png';
 
 export default function Projects(props) {
   const projects = [
+    {
+      title: 'Portfolio V2',
+      github: 'https://github.com/andychen97/portfolio_v2',
+      description: "I rebuilt my portfolio using TypeScript, React, and Vite for version 2, with a focus on improving user experience and accessibility. I plan to continue learning TypeScript as I believe it's essential to success in web development.",
+      link: 'https://typescript.acdesigns.dev/',
+      image: HomePage,
+      alternative: 'portfolio landing page',
+      technologies: 'React - TypeScript - Vite - Dokku'
+    },
     {
       title: 'Food Finder',
       github: 'https://github.com/andychen97/food-finder',
